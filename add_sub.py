@@ -1,5 +1,5 @@
-a = input("Enter first number: ")
-b = input("Enter second number: ")
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
 
 sw = input("You want add or sub?: ")
 
@@ -13,5 +13,5 @@ def subtraction(a, b):
 
 if sw=="add":
     addition(a, b)
-else
+else:
     subtraction(a, b)
